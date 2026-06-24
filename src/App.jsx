@@ -374,7 +374,7 @@ function PubNav({ active, setActive, setView }) {
 
 function Hero({ setView, setActive }) {
   const [typed,setTyped]=useState("");
-  const words=["Depatment of",Artificial Intelligence & Data Science"];
+  const words = ["Department of", "Artificial Intelligence & Data Science"];
   const [wi,setWi]=useState(0);
   useEffect(()=>{
     let i=0, dir=1;
